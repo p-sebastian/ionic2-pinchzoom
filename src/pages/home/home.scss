@@ -1,0 +1,22 @@
+page-home {
+    .scroll-content {
+        overflow: hidden !important;
+        touch-action: none !important;
+    }
+    .zoom {
+        width: 100% !important;
+        height: 100% !important;
+        touch-action: none !important;
+        position: fixed;
+        
+        .some-item {
+            border: 5px solid red;
+            background-image: url(../assets/test.jpeg);
+            width: 1800px !important;
+            height: 900px !important;
+            background-color: lightcyan;
+            touch-action: none !important;
+            
+        }
+    }
+}
